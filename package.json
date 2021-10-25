@@ -1,0 +1,23 @@
+{
+  "name": "bayeb-bot",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stilic/bayeb-bot.git"
+  },
+  "author": "Stilic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Stilic/bayeb-bot/issues"
+  },
+  "homepage": "https://github.com/Stilic/bayeb-bot#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "socket.io-client": "^4.3.2"
+  }
+}
