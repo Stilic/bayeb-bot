@@ -67,5 +67,5 @@ socket.on("message", (message) => {
 if (session.username.length > 16) {
     throw Error("The username is too long.");
 } else {
-    socket.emit("auth", { user: session.username });
+    socket.emit("auth", { user: session.username.trim() });
 }
